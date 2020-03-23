@@ -14,5 +14,6 @@ RUN mkdir /app
 WORKDIR /app
 
 ADD requirements.txt /app/
+RUN pip install https://github.com/django/django/archive/master.tar.gz
 RUN pip install -r requirements.txt
 COPY . /app/

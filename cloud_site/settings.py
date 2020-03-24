@@ -25,7 +25,7 @@ SECRET_KEY = 'hacpdby1dy99(10@4-y82_%&)$ixridms=m33_h_znu&f3kbek'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.99.100']
+ALLOWED_HOSTS = ['192.168.99.100', '192.168.99.101']
 
 
 # Application definition
